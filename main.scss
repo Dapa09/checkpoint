@@ -1,0 +1,85 @@
+$lila: rgb(175, 123, 226);
+$morado:red;
+$blanco: #fff;
+$negro: #000;
+
+body, *{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+ display: flex;
+ background-color: $negro;
+ padding: 10px 0;
+  p{
+    margin: 0 15px;
+    color: $blanco;
+    font-size: xx-large;
+    
+  }
+    input {
+    width: 150px;
+    height: 20px;
+    margin-right: -4.5px;
+    margin-top: 3px;
+    }
+    button{
+    background-color: $morado;
+    color: $blanco;
+    border: none;
+    width: 65px;
+    height: 26px;
+  }
+
+}
+
+main {
+    display: flex;
+}
+.parteUno {
+    width:30%;
+    height: 450px;
+    color: $morado;
+    text-align: center;
+    
+    height: 80%;
+}
+ .parteDos{
+    margin-left: 10px;
+    width: 70%;
+    text-align: center;
+    }    
+    figure img{
+     width: 100%;
+  }
+
+  .parteTres{
+    .btn{
+        background-color: $morado;
+        color: $blanco;
+        text-align: centers;
+        padding: 10px;
+        width: 80px;
+        margin-left: 30%;
+        margin-top: -15px;
+        z-index: 1;
+    }
+    p{
+        font-size: 12px;
+
+    }
+  }
+ 
+ footer{
+     height: 100px;
+     background-color: $negro;
+     color: white;
+     text-align: center;
+
+ }
+ @media screen and (min-width:501px) and (max-width: 800px) {
+    header{
+        background-color: blue;
+        color: $blanco;
+    }
+}
